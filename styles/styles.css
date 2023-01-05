@@ -1,0 +1,458 @@
+html,
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Amatic SC", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  --color-primary: #ce1212;
+}
+
+.bod {
+  background: black;
+}
+body {
+  background-image: url("/images/backgroundas2.jpg") !important;
+}
+@media only screen and (max-width: 414px) {
+  body {
+    overflow: hidden !important;
+  }
+  /* .profileTable {
+    overflow-y: scroll !important;
+  }  */
+}
+.mycontainer {
+  background-color: white !important;
+  padding: 0 !important;
+}
+/*--------------------------------------------------------------
+  # Sections & Section Header
+  --------------------------------------------------------------*/
+/* section {
+  overflow: hidden;
+  padding: 80px 0;
+} */
+
+.section-bg {
+  background-color: #eee;
+}
+
+.section-header {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: black;
+  /* background-color: black; */
+  text-transform: uppercase;
+  font-family: var(--font-default);
+}
+
+.section-header p {
+  margin: 0;
+  /* font-size: 48px; */
+  /* font-weight: 400; */
+  color: black;
+  font-family: var(--font-primary);
+}
+
+.section-header p span {
+  color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+  # Contact (Find.tsx) Section
+  --------------------------------------------------------------*/
+.contact .info-item {
+  background: #f4f4f4;
+  padding: 30px;
+  height: 100%;
+}
+
+.contact .info-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 0;
+  color: #fff;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+
+.contact .info-item h3 {
+  color: #6c757d;
+  font-weight: 800;
+  margin: 0 0 5px 0;
+  font-family: var(--font-primary);
+  font-size: 30px;
+}
+
+.contact .info-item p {
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: var(--font-secondary);
+}
+
+.contact .info-item .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: rgba(55, 55, 63, 0.7);
+  line-height: 1;
+  margin: 4px 6px 0 0;
+  transition: 0.3s;
+}
+
+.popover {
+  max-width: 450px !important;
+}
+
+.saucesOption {
+  justify-content: end;
+}
+
+.saucesButton {
+  border-color: white;
+  background-color: white;
+}
+
+.saucesButton:hover {
+  background-color: red;
+  transition: 0.7s;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff !important;
+  background-color: red !important;
+  border-color: #285e8e !important;
+  outline: 0;
+}
+
+.btn-primary:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.cartButton {
+  width: 170px;
+  height: 40px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+.loginButton {
+  height: 36px;
+  width: 125px;
+  background-color: white;
+  border-color: white;
+}
+
+.contactText {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.cardImg {
+  justify-content: center;
+}
+
+.contactCard {
+  border-color: white;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cardDescription {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.cardOldPrice {
+  font-size: 14px;
+  color: red;
+  font-family: var(--font-secondary);
+  font-weight: 900;
+}
+
+.cardPrice {
+  font-size: 14px;
+  color: red;
+  font-family: var(--font-secondary);
+  font-weight: 900;
+}
+
+.contactTitle {
+  font-family: var(--font-primary);
+}
+
+.contactDescription {
+  font-family: var(--font-secondary);
+}
+
+.sauceButtons {
+  border-color: white;
+}
+
+.myInput {
+  border: none !important;
+  display: inline !important;
+  background-color: Transparent !important;
+  color: white;
+}
+
+.profileTable td {
+  vertical-align: middle;
+}
+
+.banneris h1 {
+  transition: 0.5s;
+  /* font-weight: 600;
+  font-size: 80px; */
+  color: #fff;
+  font-weight: bolder;
+  pointer-events: fill;
+  font-family: var(--font-primary);
+}
+
+.banneris h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 4px 18px 0 rgb(0 0 0 / 8%);
+  box-shadow: 0 4px 18px 0 rgb(0 0 0 / 8%);
+}
+
+.navbar:before {
+  content: "";
+  height: 7px;
+  width: 100%;
+  background-image: url("/images/patternas.webp");
+  background-position: top center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  z-index: 10;
+}
+
+.banneris p {
+  transition: 0.5s;
+  /* font-weight: 600;
+  font-size: 20px; */
+  color: #fff;
+  font-weight: bolder;
+  font-family: var(--font-secondary);
+}
+
+.banneris p:hover {
+  -webkit-text-stroke: 0.5px #fff;
+  color: transparent;
+}
+
+.offers {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+a.nav-link {
+  font-family: var(--font-secondary);
+}
+
+.aboutHeader {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.aboutDescription {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ourPlace {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.placeDescription {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.offersHeader {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+}
+
+.offersDescription {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cookers h2 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.cookers p {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+}
+
+.cookers h5 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.cookers div {
+  font-weight: bolder;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.carousel div {
+  /* border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px; */
+  /* border-top-left-radius: 28px;
+  border-top-right-radius: 28px; */
+  border: 0;
+}
+
+.carousel span {
+  width: 0rem;
+  height: 0rem;
+}
+
+.carousel button.active {
+  width: 0px;
+  height: 0px;
+}
+
+.breadcrumb a {
+  color: #00000e;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 20px 0;
+  background: 0 0;
+  padding: 0;
+}
+
+/* .breadcrumb a:after {
+  content: "/";
+  margin: 0.3125rem;
+  color: transparent;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-image: url("path d={paths[14]}");
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
+
+.meniuPage h1 {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: 65px;
+}
+
+.meniuPage p {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+}
+
+/* .meniuPage div {
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+} */
+
+.meniuCard h5 {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.ourKebabs h1 {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
+/* .galleryBottomBg {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+} */
+
+.galleryBottomBg h2 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.aMainHeader {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
+/* .iContacts {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+} */
+
+.carousel-inner .carousel-item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.carousel-inner .carousel-item:first-of-type {
+  position: relative;
+}
+.carousel-inner .active {
+  opacity: 1;
+}
